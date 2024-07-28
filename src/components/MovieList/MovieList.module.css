@@ -1,0 +1,26 @@
+.list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-basis: calc((100% - 40px) / 2);
+    margin-bottom: 60px;
+  }
+  
+  .poster {
+    margin-bottom: 4px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  
+  .title {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 4px;
+    max-width: 300px;
+  }
+  .date {
+    color: black;
+    font-size: 16px;
+  }
